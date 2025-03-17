@@ -183,7 +183,7 @@ $cat_url = config('menu.category.prefix');
                                                      <div class="accordion-section-content ">
                                                          <div class="inside">
                                                              <div class="customlinkdiv" id="customlinkdiv">
-                                                                 <ul class="menu-item-list">
+                                                                 <ul class="menu-item-list mb-3">
                                                                      @if ($posts)
 
                                                                          @foreach ($posts as $post)

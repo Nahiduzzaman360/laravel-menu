@@ -2,6 +2,7 @@
     "name": "bdhabib/laravel-menu",
     "description": "Drag & Drop menu builder like  WordPress for Laravel 12.x",
     "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
+    "homepage": "https://github.com/creativehabib/laravel-menu",
     "license": "MIT",
     "version": "2.1",
     "authors": [
@@ -13,7 +14,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^11.44.2"
+        "illuminate/support": "^v12.2.0"
     },
     "autoload": {
         "psr-4": {
@@ -40,5 +41,5 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
