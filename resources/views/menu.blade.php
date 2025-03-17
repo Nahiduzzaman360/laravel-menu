@@ -117,9 +117,9 @@ $cat_url = config('menu.category.prefix');
                                                         <div class="accordion-section-content ">
                                                             <div class="inside">
                                                                 <div class="customlinkdiv" id="customlinkdiv">
-                                                                    <ul class="menu-item-list">
+                                                                    <ul class="menu-item-list mb-3">
                                                                         @if ($categories)
-                                                                        
+
                                                                             @foreach ($categories as $cat)
                                                                                 <li class="menu-list">
                                                                                     <input type="hidden" name="name-{{ $cat->id }}" value="{{ $cat->$cat_name }}">
@@ -185,7 +185,7 @@ $cat_url = config('menu.category.prefix');
                                                              <div class="customlinkdiv" id="customlinkdiv">
                                                                  <ul class="menu-item-list">
                                                                      @if ($posts)
-                                                                     
+
                                                                          @foreach ($posts as $post)
                                                                              <li class="post-list">
                                                                                  <input type="hidden" name="name-{{ $post->id }}" value="{{ $post->$post_name }}">
