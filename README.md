@@ -1,4 +1,4 @@
-# Drag & Drop menu builder like WordPress for Laravel 11.x
+# Drag & Drop menu builder like WordPress for Laravel 12.x
 
 ![Laravel drag and drop menu](https://i.postimg.cc/38TSNH8P/Screenshot.png)
 
