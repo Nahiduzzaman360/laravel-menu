@@ -184,7 +184,7 @@ $cat_url = config('menu.category.prefix');
                                                          <div class="inside">
                                                              <div class="customlinkdiv" id="customlinkdiv">
                                                                  <ul class="menu-item-list mb-3">
-                                                                     @if ($posts)
+                                                                     @if (@$posts)
 
                                                                          @foreach ($posts as $post)
                                                                              <li class="post-list">
