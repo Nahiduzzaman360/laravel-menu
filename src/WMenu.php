@@ -35,7 +35,9 @@ class WMenu
                 $data['role_title_field'] = config('menu.roles_title_field');
             }
             $data['categories'] = $cat::latest()->get();
-            $data['posts'] = $post::latest()->get();
+            if($post){
+                $data['posts'] = $post::latest()->get();
+            }
             return view('laravel-menu::menu', $data);
         }
     }
